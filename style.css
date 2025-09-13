@@ -1,0 +1,85 @@
+/* Reset margin dan padding default */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  background: #1E3A8A; /* Ubah ke biru gelap */
+  color: white;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.intro img {
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+table {
+  width: 80%;
+  margin: 10px auto;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+table th {
+  background: #1E3A8A; /* Ubah ke biru gelap */
+  color: white;
+}
+
+ul {
+  margin: 10px 0 10px 25px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+.mid {
+  position: center;
+  text-align: center;
+  margin-bottom: 10px;
+}
